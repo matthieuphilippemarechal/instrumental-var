@@ -1,6 +1,6 @@
 # instrumental-var
 
-This is a new estimator, the associated article will be submitted soon. 
+This is a new estimator for binary probit with an endogenous variable. It is based on the method of moments and utilizes an instrumental variable.
 
 In the part without intercept, we assume that y=1 if beta X +u >0, y=0 else, where beta is a parameter that we want to estimate, X is an explanatory variable and u 
 is the error term which has a standard normal distribution. We assume that X and u are not independant, which means that X is an endogenous variable. We so use an 
