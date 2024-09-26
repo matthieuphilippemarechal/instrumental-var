@@ -8,4 +8,4 @@ instrumental variable W related with X by the relation X=alpha * W + eta where e
 
 In our theorical reasearch, we have found a function f which satisfies beta = f(E[X*y],E[W*y]), so estimating these expected values, we can estimate beta.
 
-The case without intercept is when y=1 if beta0 +beta1 X +u >0, y=0 else. In this case we found a function g such that (beta0,beta1)=f(E[y],E[X*y],E[W*y]).
+The case with intercept is when y=1 if beta0 +beta1 X +u >0, y=0 else. In this case, using the previous case without intercept, we have found a function g such that (beta0,beta1)=g(E[y],E[X*y],E[W*y]).
